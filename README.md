@@ -1,2 +1,2 @@
 # Work-By-Latency
-test
+https://nhuf.github.io/Work-by-Latency/
