@@ -1,19 +1,14 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-  <meta charset="UTF-8">
-  <title>Mein Spiel</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div id="game">
-    <h1>Mein Text-Spiel</h1>
-    <p id="status">Willkommen im Spiel!</p>
-    <div id="buttons">
-      <button onclick="doAction('arbeiten')">Arbeiten</button>
-      <button onclick="doAction('shop')">Shop</button>
-    </div>
+<div class="max-w-sm mx-auto mt-10 p-6 bg-white rounded-2xl shadow-lg">
+  <h1 class="text-2xl font-bold mb-4">Mein Text-Spiel</h1>
+  <p id="status" class="mb-4">Willkommen!</p>
+  <div class="flex gap-2">
+    <button onclick="doAction('arbeiten')" 
+            class="px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600">
+      Arbeiten
+    </button>
+    <button onclick="doAction('shop')" 
+            class="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">
+      Shop
+    </button>
   </div>
-  <script src="script.js"></script>
-</body>
-</html>
+</div>
